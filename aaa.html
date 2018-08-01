@@ -1,0 +1,44 @@
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>啦啦啦德玛西亚！</title>
+</head>
+
+<body>
+
+<audio controls>
+  
+  <source src="F:\有何不可.mp3" type="audio/mpeg">
+</audio>
+
+<video width="600" height="400" controls>
+	<source src="F://迅雷下载//蜘蛛侠.mp4" type="video/mp4">
+	<source src="F://迅雷下载//蜘蛛侠.ogg" type="video/ogg">
+</video>
+<canvas id="my" width="200" height="200"
+style="border:1px solid #000000;" >
+
+</canvas>
+<script>
+var c=document.getElementById("my");
+var cr = c.getContext("2d");
+cr.moveTo(0,0);
+cr.lineTo(200,200);
+cr.stroke();
+
+cr.moveTo(200,0);
+cr.lineTo(0,200);
+cr.stroke();
+
+cr.beginPath();
+cr.arc(100,100,40,0,2*Math.PI);
+cr.stroke();
+
+cr.font="30px Arial";
+cr.fillText("ssssss",60,105);
+//cr.fillStyle="#F0FF00";
+//cr.fillRect(0,0,200,200);
+</script>
+</body>
+</html>
